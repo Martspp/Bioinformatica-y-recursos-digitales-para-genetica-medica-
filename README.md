@@ -1,6 +1,9 @@
 # Bioinformatica-y-recursos-digitales-para-genetica-medica-
 “Guía práctica en español para médicos genetistas que desean iniciarse en bioinformática, bases de datos genómicas e interpretación clínica.”
 
+¿Quieres colaborar? 
+martha.ppp18@gmail.com
+
 # Bioinformática para médicos genetistas
 
 Guía práctica en español para médicos genetistas, residentes y profesionales de la salud que desean iniciarse en bioinformática, bases de datos genómicas e interpretación clínica.
