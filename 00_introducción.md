@@ -1,6 +1,7 @@
-#¿Qué es bioinformática?
-#¿Qué es genómica clínica?
-#¿Cómo usar esta guía?
-#Ruta sugerida para residentes
+# ¿Qué es bioinformática?
 
-#Otros recursos sugeridos
+# ¿Qué es genómica clínica?
+# ¿Cómo usar esta guía?
+# Ruta sugerida para residentes
+
+# Otros recursos sugeridos
