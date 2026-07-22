@@ -5,3 +5,25 @@
 # Ruta sugerida para residentes
 
 # Otros recursos sugeridos
+
+• PubMed Central
+o https://www.ncbi.nlm.nih.gov/pmc/
+o Preferred search engine to locate articles to annotate
+• ClinVar
+o https://www.ncbi.nlm.nih.gov/clinvar/
+o Variant IDs
+• ClinGen Allele Registry
+o http://reg.clinicalgenome.org/redmine/projects/registry/genboree_registry/landing
+o Variant IDs
+• Human Phenotype Ontology (HPO)
+o https://hpo.jax.org/app/
+o Phenotype IDs (HPOs)
+• gnomAD
+o https://gnomad.broadinstitute.org/
+o Population frequencies
+• Hugo Gene Nomenclature Committee (HGNC)
+o https://www.genenames.org/
+o Gene IDs
+• Online Mendelian Inheritance in Man (OMIM)
+o https://www.omim.org/
+o Useful to get information on the gene(s) of interest for annotation
