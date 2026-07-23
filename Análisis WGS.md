@@ -14,13 +14,14 @@ análisis de cobertura más amplio.
 
 # Priorización
 Priorización WGS
-├── SNV e indels codificantes
-├── variantes de splicing
-├── CNV
-├── variantes estructurales
-├── repeticiones
-├── variantes mitocondriales
-└── variantes regulatorias/no codificantes
+
+	├── SNV e indels codificantes
+	├── variantes de splicing
+	├── CNV
+	├── variantes estructurales
+	├── repeticiones
+	├── variantes mitocondriale
+	└── variantes regulatorias/no codificantes
 
 
 
