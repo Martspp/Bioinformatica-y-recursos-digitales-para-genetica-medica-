@@ -1,0 +1,127 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2821
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\froman\fcharset0 Times-Roman;\f2\fmodern\fcharset0 Courier;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red109\green109\blue109;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c50196\c50196\c50196;}
+\margl1440\margr1440\vieww14480\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Caso_ejercicio_priorizaci\'f3n de variantes\
+# Caso pr\'e1ctico: priorizaci\'f3n de variantes en Franklin\
+\
+**Uso exclusivamente educativo. No contiene datos reales de pacientes.**\
+\
+## Paciente\
+Ni\'f1a de 6 a\'f1os con:\
+- retraso global del desarrollo;\
+- discapacidad intelectual;\
+- epilepsia de inicio a los 8 meses;\
+- hipoton\'eda;\
+- polimicrogiria bilateral frontoparietal;\
+- hipoacusia neurosensorial;\
+- per\'edmetro cef\'e1lico en percentil 75;\
+- asimetr\'eda corporal leve.\
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+Padres cl\'ednicamente sanos y no consangu\'edneos. Para este primer ejercicio se analiza \'fanicamente un VCF del probando; por tanto, el origen de novo no puede demostrarse.\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 # VARIANTES\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf0 \expnd0\expndtw0\kerning0
+ACTB p.Arg183Trp\
+\pard\pardeftab720\partightenfactor0
+\cf0 \outl0\strokewidth0 \strokec2 PIK3CA p.His1047Arg\
+SCN1A p.Arg28His\
+HFE p.Cys282Tyr\
+MTHFR p.Ala222Val\
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \strokec2 \cell \lastrow\row
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+## HPO sugeridos\
+- HP:0001263 \'97 Global developmental delay\
+- HP:0001249 \'97 Intellectual disability\
+- HP:0001250 \'97 Seizure\
+- HP:0001252 \'97 Hypotonia\
+- HP:0002126 \'97 Polymicrogyria\
+- HP:0000407 \'97 Sensorineural hearing impairment\
+- HP:0001052 \'97 Nevus flammeus (opcional, para explorar PIK3CA-related overgrowth)\
+- HP:0006101 \'97 Finger syndactyly (opcional; usar solo si se decide a\'f1adirlo al caso)\
+\
+## Objetivo\
+Ordenar las cinco variantes del VCF desde la que requiere revisi\'f3n m\'e1s urgente hasta la que puede descartarse primero, justificando:\
+1. calidad t\'e9cnica;\
+			
+\f2\fs26 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 FILTER
+\f1\fs24 ;\
+\pard\pardeftab720\partightenfactor0
+\cf0 	profundidad o 
+\f2\fs26 DP
+\f1\fs24 ;\
+	calidad genot\'edpica o 
+\f2\fs26 GQ
+\f1\fs24 ;\
+	profundidad por alelo o 
+\f2\fs26 AD
+\f1\fs24 ;\
+	fracci\'f3n al\'e9lica o 
+\f2\fs26 AF/VAF
+\f1\fs24 ;\
+	cigosis.\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+2. frecuencia poblacional;\
+	
+\f1 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Population frequency \
+	Occurrences gnomAD \
+	Population databases\
+
+\f0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+3. consecuencia molecular;\
+	
+\f1 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \'bfEse tipo de variante es un mecanismo conocido de enfermedad?\
+\pard\pardeftab720\partightenfactor0
+\cf0 	\'bfEl residuo o dominio es importante?\
+	\'bfHay variantes patog\'e9nicas cercanas?\
+	\'bfExiste evidencia funcional?\
+	\'bfEl mecanismo del gen coincide con el paciente?\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+4. herencia compatible;\
+	
+\f1 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 de novo;\
+\pard\pardeftab720\partightenfactor0
+\cf0 	herencia materna;\
+	herencia paterna;\
+	variantes en trans;\
+	segregaci\'f3n.\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+5. relaci\'f3n gen\'96fenotipo;\
+	
+\f1 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Associated conditions \
+	Phenotype match \
+	Gene\'96disease association \
+	Disease OMIM \
+	Orphanet Publications\
+
+\f0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+6. evidencia faltante.\
+\
+}
