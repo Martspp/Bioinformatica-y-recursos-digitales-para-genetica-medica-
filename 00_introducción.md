@@ -33,3 +33,13 @@ o Gene IDs
 • Online Mendelian Inheritance in Man (OMIM)
 o https://www.omim.org/
 o Useful to get information on the gene(s) of interest for annotation
+
+
+| Concepto           | Pregunta que responde                                       |
+| ------------------ | ----------------------------------------------------------- |
+| Análisis de WES    | ¿Cómo procesamos e interpretamos las regiones codificantes? |
+| Análisis de WGS    | ¿Cómo procesamos e interpretamos todo el genoma?            |
+| Anotación          | ¿Qué variante es y qué consecuencia podría tener?           |
+| Priorización       | ¿Qué variantes debemos revisar primero?                     |
+| Clasificación ACMG | ¿Qué tan sólida es la evidencia de patogenicidad?           |
+| Reporte            | ¿Qué resultados deben comunicarse?                          |
