@@ -2,27 +2,27 @@
 Pipeline
 
 FASTQ
-↓
+  ↓
 QC (control de calidad)
-↓
+  ↓
 Alineamiento
-↓
+  ↓
 BAM / CRAM
-↓
+  ↓
 Recalibración
-↓
+  ↓
 Variant Calling - llamado de SNV e indels
-↓
+  ↓
 VCF
-↓
+  ↓
 Anotación
-↓
+  ↓
 Priorización
-↓
+  ↓
 Clasificación
-↓
+  ↓
 Interpretación
-↓
+  ↓
 Reporte
 
 La priorización se concentra principalmente en:
